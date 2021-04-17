@@ -49,7 +49,7 @@
     <PackageOutputPath Condition="'$(PlatformName)' != 'AnyCPU'">$(BaseArtifactsPath)pkg/$(Configuration)</PackageOutputPath>
     <Product>Finite.AspNetcore.JsonPatch</Product>
     <VersionPrefix>1.0.0</VersionPrefix>
-    <VersionSuffix></VersionSuffix>
+    <VersionSuffix>preview.1</VersionSuffix>
     <VersionSuffix Condition="'$(PullRequestNumber)' != ''">pr$(PullRequestNumber)</VersionSuffix>
   </PropertyGroup>
 
